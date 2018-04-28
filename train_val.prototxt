@@ -14,7 +14,7 @@ layer {
     mirror: true
   }
   image_data_param {
-    source: "/home/hzh/Recognition_face_train/dataset_path/casia_train_align_label.txt"
+    source: "./data_path/casia_train.txt"
     batch_size: 256
     shuffle: true
   }
@@ -36,7 +36,7 @@ layer {
     mirror: true
   }
   image_data_param {
-    source: "/home/hzh/Recognition_face_train/dataset_path/lfw_label.txt"
+    source: "./data_path/casia_val.txt"
     batch_size: 256
     shuffle: true
   }
